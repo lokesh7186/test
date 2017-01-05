@@ -7,7 +7,7 @@ if (GlobalSettings::GetSiteOnlineStatus() == 0)
 }
 
 ob_start();
-
+echo 1;
 require_once("classes/class.users.php");
 require_once("classes/class.members.php");
 require_once("classes/class.member_details.php");
